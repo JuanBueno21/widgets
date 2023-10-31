@@ -27,7 +27,6 @@ class _HomeView extends StatelessWidget {
       itemCount: appMenuItems.length,
       itemBuilder:(context, index) {
         final menuItem = appMenuItems [index];
-
         return _CustomListTitle(menuItem: menuItem);
       },
       );
@@ -52,8 +51,19 @@ class _CustomListTitle extends StatelessWidget {
       trailing: Icon(Icons.arrow_forward_ios_rounded, color: colors.primary,),
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subTitle),
-      onTap: (){},
-      // TODO: navegar a otra pantalla
+      onTap: (){
+
+        // 1ra metodo para navegar entre pantallas
+  //       Navigator.of(context).push(
+  //         MaterialPageRoute(
+  //           builder: (context) => const ButtonsScreen(),
+  //   ),
+  // );
+
+        // 2da metodo para navegar entre pantallas
+  Navigator.pushNamed(context, menuItem.link);
+
+      },
     );
   }
 }
