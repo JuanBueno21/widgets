@@ -25,34 +25,39 @@ const appMenuItems = <MenuItems>[
 
   MenuItems(
     title: "Tarjetas", 
-    subTitle: "contenedor", 
+    subTitle: "Contenedor", 
     link: "/cards", 
     icon: Icons.credit_card),
 
-
     MenuItems(
     title: "Indicador de progreso", 
-    subTitle: "generales & controlados", 
+    subTitle: "Generales & controlados", 
     link: "/progress", 
     icon: Icons.refresh_rounded),
 
     MenuItems(
     title: "Snackbars y dialogos", 
-    subTitle: "indicadores en pantalla", 
+    subTitle: "Indicadores en pantalla", 
     link: "/snackbars", 
     icon: Icons.phone),
 
     // contenedor animado
     MenuItems(
       title: "Animated container", 
-      subTitle: "Stateful widget animated", 
+      subTitle: "Stateful widget animado", 
       link: "/animated", 
       icon: Icons.check_box_outline_blank_outlined),
 
     MenuItems(
     title: "UI Controls + Tiles", 
-    subTitle: "una serie de controles de Flutter", 
+    subTitle: "Controles de Flutter", 
     link: "/ui-controls",
     icon: Icons.car_rental_outlined),
+    
+    MenuItems(
+    title: "Introduccion a la App", 
+    subTitle: "Tutorial introductorio", 
+    link: "/tutorial",
+    icon: Icons.app_settings_alt),
 
 ];
