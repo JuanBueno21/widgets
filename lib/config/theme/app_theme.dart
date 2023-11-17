@@ -22,7 +22,7 @@ class AppTheme {
     this.selectedColor = 0,
     this.isDarkmode = false
   }): assert(selectedColor >= 0, "El color seleccionado debe ser mayor que 0"),
-      assert(selectedColor < colorList.length -1, 
+      assert(selectedColor < colorList.length, 
       "El color seleccionado debe ser menor o igual que ${colorList.length}"
     );
 
@@ -34,4 +34,13 @@ class AppTheme {
       centerTitle: false)
   );
 
+
+  AppTheme copyWith({
+    int? selectedColor,
+    bool? isDarkmode,
+    }
+  ) => AppTheme(
+    selectedColor: selectedColor ?? this.selectedColor,
+    isDarkmode: isDarkmode ?? this.isDarkmode,
+  );
 }
