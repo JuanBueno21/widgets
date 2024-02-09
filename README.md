@@ -21,7 +21,7 @@ Tecnologias que se utilizaron en el proyecto:
 
 ***
 ## Funcionalidades
-Encontramos una aplicacion en donde implementamos el desarrollo de diferentes widgets: un contador, botones, tarjetads, indicadores de progreso, snackbars y cuadros de dialogos, contenedor animado, ui control, una introduccion de appcons (slide), scroll infinito y el cambio de thema de la app y el comportamiento respectivo de cada uno y sus estados. Se implemento un menu con su respectiva navegacion hacia cada uno de los diferentes widgets utilizando el metodo GoRouter.
+Encontramos una aplicacion en donde implementamos el desarrollo de diferentes widgets: un contador, botones, tarjetas, indicadores de progreso, snackbars y cuadros de dialogos, contenedor animado, ui control, una introduccion de app (slide), scroll infinito, cambio de tema de la app y el comportamiento respectivo de cada uno y sus diferentes estados. Se implemento un menu con su respectiva navegacion hacia cada uno de los diferentes widgets utilizando el metodo GoRouter.
 
 Riverpod Counter.
 
